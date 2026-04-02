@@ -1,0 +1,126 @@
+:root {
+    --bg: #e6e1d3;
+    --red: #e1492e;
+    --black: #000000;
+    --blue: #97adc5;
+    --yellow: #fcab24;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.poster {
+    background-color: var(--bg);
+    width: 500px;
+    height: 700px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    position:relative;
+    
+}
+
+/*Positionen*/
+.Zeile1{
+    top: 50px;
+}
+.Zeile2{
+    top: 150px;
+}
+.Zeile3{
+    top: 250px;
+}
+.Zeile4{
+    top: 350px;
+}
+.Zeile5{
+    top: 450px;
+}
+
+.Spalte1{
+    left: 50px;
+}
+.Spalte2{
+    left: 150px;
+}
+.Spalte3{
+    left: 250px;
+}
+.Spalte4{
+    left: 350px;
+}
+
+/*Farben*/
+.FarbeGelb{
+    background-color:#fcab24;
+}
+
+.FarbeRot{
+    background-color: #e1492e;
+}
+
+.FarbeBlau{
+    background-color:#97adc5;
+}
+
+.FarbeSchwarz{
+    background-color: #000000;
+}
+
+/*Größen*/
+.BoxSize1{
+    position:absolute;
+    width: 100px;
+    height: 300px;
+}
+
+.BoxSize2{
+    position:absolute;
+    width: 200px;
+    height:100px;
+}
+
+.BoxSize3{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.BoxSize4{
+    position:absolute;
+    width: 100px;
+    height:200px;
+}
+
+.CircleSize{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/* Typografie */
+.typography {
+    text-align: center;
+}
+
+.typography h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 550px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+
+
+
+
