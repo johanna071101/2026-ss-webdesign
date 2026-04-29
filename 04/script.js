@@ -1,6 +1,6 @@
-let position = 0;
 
-let love =1;
+
+let love =0;
 
 setInterval(() => {
     // Konsole leeren
@@ -11,7 +11,8 @@ setInterval(() => {
         console.log(" -\\  /- \n|  \\/  |\n \\    / \n  \\  /  \n   \\/   ");
         love= love +1;
     
-    if(love > 5) {
+    if(love > 3) {
+        console.clear();
         console.log(" -\\   /- \n|  \\ /  |\n \\ / / / \n  \\\\ \\/  \n   \\ /   ");
         love = 0;
         
