@@ -1,16 +1,25 @@
 
-  
+  const btn = document.getElementById("button");
 
-  button.addEventListener("mouseover", () => {
+ btn.addEventListener("mouseover", function () {
 
-    // Zufällige Position berechnen
-    const maxX = window.innerWidth - button.offsetWidth;
-    const maxY = window.innerHeight - button.offsetHeight;
 
-    const randomX = Math.random() * maxX;
-    const randomY = Math.random() * maxY;
+    btn.style.transition = "transform 0.15s ease";
+    btn.style.transform = "scale(0.7)";
 
-    // Button verschieben
-    button.style.left = `${randomX}px`;
-    button.style.top = `${randomY}px`;
-  })
+    setTimeout(function () {
+
+        const x = (Math.random() - 0.5) * 800;
+        const y = (Math.random() - 0.5) * 500;
+
+        btn.style.transition = "transform 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
+
+        btn.style.transform = "translate(" + x + "px, " + y + "px) scale(1)";
+
+       
+
+    }, 130);
+});
+
+//Beim Klicken kommt ein Alert.
+
