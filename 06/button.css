@@ -1,12 +1,4 @@
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:cadetblue;
-  overflow: hidden;
-}
+
 
 .button {
     padding: 12px 50px;
