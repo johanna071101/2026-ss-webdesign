@@ -1,20 +1,21 @@
 
-  const btn = document.getElementById("button");
+  const button = document.getElementById("button");
 
- btn.addEventListener("mouseover", function () {
+ button.addEventListener("mouseover", function () {
 
 
-    btn.style.transition = "transform 0.15s ease";
-    btn.style.transform = "scale(0.7)";
+    button.button.transition = "transform 0.15s ease";
+    button.button.transform = "scale(0.7)";
 
     setTimeout(function () {
 
         const x = (Math.random() - 0.5) * 800;
         const y = (Math.random() - 0.5) * 500;
 
-        btn.style.transition = "transform 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
+       
+        button.button.transition = "transform 0.3s cubic-bezier(0.25, 1, 0.5, 1)";
 
-        btn.style.transform = "translate(" + x + "px, " + y + "px) scale(1)";
+        button.button.transform = "translate(" + x + "px, " + y + "px) scale(1)";
 
        
 
