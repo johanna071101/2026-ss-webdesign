@@ -21,5 +21,5 @@
     }, 130);
 });
 
-//Beim Klicken kommt ein Alert.
+
 
