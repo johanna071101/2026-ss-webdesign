@@ -1,6 +1,11 @@
-.demo {
-    display: flex;
-    background-color:blanchedalmond;
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:cadetblue;
+  overflow: hidden;
 }
 
 .button {
@@ -14,6 +19,6 @@
 }
 
 .button:hover {
-    transform: translateY random(300, 300);
+    transform: 0.6s cubic-bezier (0.84, 1,35, 0,23, 1);
 
 }
