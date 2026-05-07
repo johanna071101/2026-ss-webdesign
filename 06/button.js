@@ -4,7 +4,7 @@
  button.addEventListener("mouseover", function () {
 
 
-    button.button.transition = "transform 0.15s ease";
+    button.button.transition = "transform 0.16s ease";
     button.button.transform = "scale(0.7)";
 
     setTimeout(function () {
