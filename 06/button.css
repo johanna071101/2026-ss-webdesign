@@ -1,0 +1,14 @@
+.button {
+    padding: 12px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: darkslategray;
+    color: white;
+    border: 2px solid coral
+}
+
+.button:hover {
+    transform: translateY random(300, 300);
+
+}
