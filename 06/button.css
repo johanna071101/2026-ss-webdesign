@@ -15,7 +15,7 @@
 }
 
 .button:mouseover {
-    transform: translate (random(-200, 200), random(-200,200));
+
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 
 }
