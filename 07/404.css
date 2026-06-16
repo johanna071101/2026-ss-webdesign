@@ -1,0 +1,39 @@
+.position
+{
+    top: 200px;
+    left: 200px;
+}
+
+/* Typografie */
+.typography {
+    text-align: center;
+}
+
+.typography h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 550px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+
+body {
+    background-color: #c47777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+:root {
+    --bg: #e6e1d3;
+    --pink: #e12eb7;
+    --black: #000000;
+    --green: #2bf346;
+    --yellow: #fcab24;
+}
